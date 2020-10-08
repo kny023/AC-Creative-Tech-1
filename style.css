@@ -1,0 +1,14 @@
+
+body {width: 99%; font-family:futura; line-height: 1.5em; }
+
+.section {width: auto; max-width: 800px; margin: 100px auto;}
+
+.week_section {}
+.quote {}
+.opinion {padding-top: 10px;  color: #666666; }
+
+.weekline {width: 100%; height: 1px; margin-bottom: 30px; background-color: #000000; }
+.week01 .week_tit,
+.week01 .quote {color: rgb(253, 54, 81);}
+.week02 .week_tit,
+.week02 .quote {color:rgb(28, 185, 138)}
