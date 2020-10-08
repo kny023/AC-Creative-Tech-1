@@ -1,7 +1,17 @@
 
 main {width:700px; margin-left: auto; margin-right: auto;}
 
-.font{font-family: futura;}
+h1 { color: blue;
+    font-family: futura;
+    font-size: 300%;}
+  
+  p {  
+    color: red;
+    font-family: Arial, sans-serif;
+    font-size: 160%;
+  }
+
+
 
 .section {width: auto; max-width: 800px; margin: 100px auto;}
 
