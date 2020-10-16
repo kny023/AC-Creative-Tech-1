@@ -1,5 +1,5 @@
 
-main {width:700px; margin-left: auto; margin-right: auto;}
+main {width:700px; margin-left: auto; margin-right: auto; display: block;}
 
 h1 {font-size: 300%;} 
 
