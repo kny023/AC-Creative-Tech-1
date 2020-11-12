@@ -10,40 +10,6 @@
    <main>
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-    <script>
-        let URL = "https://api.particle.io/v1/devices/3b005a001051373331333230/pot_value?access_token=e9ce75496559a61f43c6a9bcd9af4dafaea37bc2" ;
-        let data = "";
-        let currentTime, prevTime;
-        let value = 10;
-
-        function setup(){
-            createCanvas(400, 400);
-        }
-
-        function draw(){
-            background(255);
-
-            currentTime = millis() % 1000; 
-            if(currentTime < prevTime){
-                data = loadJSON(URL, processData);
-            }
-            fill(255, 0, 0); 
-            circle(width/2, height/2, value);
-
-            prevTime = currentTime;
-        }
-
-        function processData(data){
-            console.log(data.result);
-            value = map(parseInt(data.result),0, 4096, 0, 400);
-            console.log(value);
-        }
-</script>
-
-
     <h1>Week6-7</h1>
     <h2>Reading: "What is code"</h2>      
     
